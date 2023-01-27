@@ -67,7 +67,15 @@ if grep "$port-security" && grep "$port-security-sticky"; then
 elif grep "$port-security" && ! grep "port-security-sticky"; then
 	port-sec="Incomplete Traditional"
 fi    
-```	
+```
 --------------------------------------------------------------------------------------------------------
-          
+
+- **Command**: ``` grep -i ```
+- **Description**: Allows you to search for strings regardless of capitlization.
+- **Use Case**: Used out of sheer laziness! You can use it quite often if you are searching for any instance of a word regardless if its capitalized or not.
+
+Code Example1:
+```
+grep -i "fastethernet\|gigabitethernet"
+```
     
