@@ -41,6 +41,7 @@ Code Example 1:
 grep "FastEthernet\|GigabitEthernet\|TenGigabitEthernet\|Vlan" ./Router-01_configs.txt
 ```  
 Will find any instance of the above ports.
+
 --------------------------------------------------------------------------------------------------------
 
 - **Command**: ``` grep (Regexp searching) ```
