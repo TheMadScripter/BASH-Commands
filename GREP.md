@@ -2,7 +2,7 @@
 - **Description**: This allows you to get exact matches with the word/Regexp that you are using.
 - **Use Case**: It comes in handy, especially when trying to parse through IP addresses. I often got issues when trying to look for an IP such as "100.0.0.10" but would end matching with other IPs such as ".101, .102, etc."
 
-Code Example 1: Use it to find a pattern within a file:
+Code Example 1: Use it to find a exact match pattern within a file:
   ```
   grep -w "10.0.0.1" ./test.txt
   ```
