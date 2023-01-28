@@ -73,6 +73,7 @@ elif grep "$port-security" && ! grep "port-security-sticky"; then
 fi    
 ```
 ⭕ The first grep statement matches both port-security and port-security-sticky. The elif statement afterwards uses the "!" which is syntax for not finding that specific grep selection.
+
 --------------------------------------------------------------------------------------------------------
 
 - **Command**: ``` grep -i ```
@@ -84,6 +85,7 @@ Code Example 1:
 grep -i "fastethernet\|gigabitethernet"
 ```
 ⭕ Will find any instance of both fastethernet or gigabitethernet regardless if it is upper or lower case.
+
 --------------------------------------------------------------------------------------------------------
 - **Command**: ``` grep (^ and $ Searches) ```
 - **Description**: Allows you to search for strings/regexp patterns that begin with or end on a line. ^ for the beginning of a line, $ for the end of a line.
